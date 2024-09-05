@@ -60,7 +60,7 @@ $$V_{dc} = \frac {1}{2\pi} \left[\int_{\alpha}^{\pi} V_{max} ~ sin ~ \omega t ~ 
 
 <center>
 
-$$V_{dc} = \frac {1}{2\pi} [-V_{max} ~ cos \omega t]_{\alpha}^{\pi} = \frac {V_{max} }{2\pi}(1+cos \alpha )........(1)$$
+$$V_{dc} = \frac {1}{2\pi}[-V_{max} ~ cos\omega t]_{\alpha}^{\pi} = \frac {V_{max}}{2\pi}(1+cos \alpha)........(1)$$
 
 </center>
 
@@ -192,7 +192,21 @@ $$i_o = i_s + i_t =\frac {V_m}{Z} sin(\omega t-\phi) + Ae^{-\left(\frac {R}{L}\r
 
 </center>
 
-Constant A can be obtained from the boundary condition at &omega;t = &alpha;. At time $t = \frac{\alpha}{\omega}$, $i_o = 0$ . Thus from equation (8)
+Constant A can be obtained from the boundary condition at &omega;t = &alpha;. At time 
+
+<center>
+
+$$t = \frac{\alpha}{\omega}$$
+
+</center>
+
+<center>
+
+$$i_o = 0$$
+
+</center>
+
+Thus from equation (8)
 
 <center>
 
@@ -287,9 +301,15 @@ $$i_{s2} = -\left(\frac{E}{R}\right)$$
 
 </center>
 
-The transient current i<sub>t</sub> is given by $i_t = Ae^{-\left(\frac{R}{L}\right)^t}$<br>
+The transient current i<sub>t</sub> is given by 
 
-At &omega;t = &alpha;, $i_o = 0$, i.e., at $t = \frac{\alpha}{\omega}$, $i_o = 0$.
+<center>
+
+$$i_t = Ae^{-\left(\frac{R}{L}\right)^t}$$
+
+</center>
+
+At &omega;t = &alpha;, i<sub>o</sub> = 0, i.e., at t = &alpha;/&omega;, i<sub>o</sub> = 0.
 
 <center>
 
@@ -303,7 +323,7 @@ $$i_o =\frac {V_m}{Z}\left[sin(\omega t- \phi )-sin( \alpha - \phi)exp\{-\frac {
 
 </center>
 
-Equation 11 is applicable for &alpha; &le; &omega;t &ge; &beta;. The extinction angle &beta; depends upon load emf E, firing angle &alpha; and the load impedence angle &phi; the average load current $I_o$ is given by<br>
+Equation 11 is applicable for &alpha; &le; &omega;t &ge; &beta;. The extinction angle &beta; depends upon load emf E, firing angle &alpha; and the load impedence angle &phi; the average load current i<sub>o</sub> is given by<br>
 
 <center>
 
@@ -326,7 +346,7 @@ $$V_o=E\left(1-\frac {\gamma} {2 \pi}\right)+\frac {V_m} {\pi} sin\left(\alpha +
 </center>
 
 In case &beta; is made equal to (&gamma;+&alpha;) in the above expression, Equation (15) can be obtained.
-If load inductance L is zero in Fig. 5, then extinction angle &beta; = $\theta_2$ and &gamma; = &beta; - &alpha;
+If load inductance L is zero in Fig. 5, then extinction angle &beta; = &theta;<sub>2</sub> and &gamma; = &beta; - &alpha;
  = &theta;<sub>2</sub> - &alpha; but &theta;<sub>2</sub> = &pi; - &theta;<sub>1</sub>.<br>
 
 This gives &beta; = &theta;<sub>2</sub> = &pi; - &theta;<sub>1</sub> and &gamma; = &pi; - &theta;<sub>1</sub> - &alpha;.
@@ -343,7 +363,7 @@ as under:<br>
 
 <center>
 
-$$I_{or}=\left[\frac {1}{2 \pi R^2} \int_\alpha ^{\pi-\alpha}\left\{(V_m sin \omega t-E)^2.d(\omega t)\right\}\right]^\frac {1}{2}.........(18)$$
+$$I_{or} = \left[\frac {1}{2\pi R^2}\int_\alpha^{\pi-\alpha}\left\{(V_m sin \omega t-E)^2.d(\omega t)\right\}\right]^\frac {1}{2}.........(18)$$
 
 </center>
 
@@ -355,9 +375,11 @@ $$P=I^2R+I_oE.......(19)$$
 
 </center>
 
+Supply power factor 
+
 <center>
 
-$$Supply~power~factor = I_or^2R+I_o \frac {E}{V_sI_{or}}$$
+$$= I_or^2R+I_o \frac {E}{V_sI_{or}}$$
 
 </center>
 
