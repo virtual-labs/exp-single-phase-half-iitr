@@ -60,7 +60,7 @@ $$V_{dc} = \frac {1}{2\pi} \left[\int_{\alpha}^{\pi} V_{max} ~ sin ~ \omega t ~ 
 
 <center>
 
-$$V_{dc} = \frac {1}{2\pi} \bigg[-V_{max} ~ cos\omega t \bigg]_{\alpha}^{\pi} = \frac {V_{max}}{2\pi}(1+cos \alpha)........(1)$$
+$$V_{dc} = \frac {1}{2 \pi} \bigg[-V_{max} ~ cos\omega t \bigg]_{\alpha}^{\pi} = \frac {V_{max}}{2 \pi}(1+cos \alpha)........(1)$$
 
 </center>
 
