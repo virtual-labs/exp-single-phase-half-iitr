@@ -60,7 +60,7 @@ $$V_{dc} = \frac {1}{2\pi} \left[\int_{\alpha}^{\pi} V_{max} ~ sin ~ \omega t ~ 
 
 <center>
 
-$$V_{dc} = \frac {1}{2\pi} \biggr[-V_{max} ~ cos\omega t \biggr]_{\alpha}^{\pi} = \frac {V_{max}}{2\pi}(1+cos \alpha)........(1)$$
+$$V_{dc} = \frac {1}{2\pi} \bigg[-V_{max} ~ cos\omega t \bigg]_{\alpha}^{\pi} = \frac {V_max}{2\pi}(1+cos \alpha)........(1)$$
 
 </center>
 
@@ -363,7 +363,7 @@ as under:<br>
 
 <center>
 
-$$I_{or} = \bigg[\frac {1}{2\pi R^2}\int_\alpha^{\pi-\alpha}\bigg\{(V_m sin \omega t-E)^2.d(\omega t)\bigg\}\bigg]^\frac {1}{2}.........(18)$$
+$$I_{or} = \bigg[\frac {1}{2\pi R^2}\int_\alpha^{\pi-\alpha}(V_m sin \omega t-E)^2.d(\omega t)\bigg]^\frac {1}{2}.........(18)$$
 
 </center>
 
