@@ -30,7 +30,7 @@ A logarithmic amplifier is an electronic circuit that produces an output that is
 <center><img src="images\Rloadtheory.png" style="-webkit-filter:contrast(120%);"></center>
 <center><b>Fig. 1 Single Phase Half Wave Controlled Rectifier Circuit with R load</b></center><br>
 
-The circuit is energized by the line voltage or transformer secondary voltage, V = V<sub>max</sub> sin ωt as
+The circuit is energized by the line voltage or transformer secondary voltage, V = V<sub>m</sub> sin ωt as
 shown in Fig 1. Here, V<sub>0</sub> = Load output voltage, i<sub>0</sub> = Load current and V<sub>T</sub> = Voltage across the thyristor T. It is assumed that the peak supply voltage never exceeds the forward and reverse-blocking ratings of the thyristor. The thyristor can be triggered at any angle α in the positive half cycle and thus the output voltage can be controlled. The thyristor blocks during the negative half cycle. The various voltage and current waveforms for the Single Phase Half Wave Controlled Rectifier with resistive load circuit are shown in Fig 2.<br>
 
 <center> <img src="images\R load graph.PNG" alt="Fig. 2 :Single Phase Half Wave Controlled Rectifier Circuit with R load"></center><br>
@@ -54,23 +54,23 @@ current and no voltage is applied to the load R.<br>
 
 <center>
 
-$$V_{dc} = \frac {1}{2\pi} \left[\int_{\alpha}^{\pi} V_{max} ~ sin ~ \omega t ~ d(\omega t)+\int_{\pi}^{2\pi}(0)~d(\omega t)\right]$$
+$$V_{dc} = \frac {1}{2\pi} \left[\int_{\alpha}^{\pi} V_m ~ sin ~ \omega t ~ d(\omega t)+\int_{\pi}^{2\pi}(0)~d(\omega t)\right]$$
 
 </center>
 
 <center>
 
-$$V_{dc} = \frac {1}{2\pi} \bigg[-V_{max} ~ cos\omega t \bigg]_{\alpha}^{\pi} = \frac {V_m}{2\pi}(1+cos \alpha)........(1)$$
+$$V_{dc} = \frac {1}{2\pi} \bigg[-V_m ~ cos\omega t \bigg]_{\alpha}^{\pi} = \frac {V_m}{2\pi}(1+cos \alpha)........(1)$$
 
 </center>
 
-Where, V<sub>max</sub> is peak value of the ac input voltage.
+Where, V<sub>m</sub> is peak value of the ac input voltage.
 From the above Eq. (1) it is obvious that the load voltage varies with firing angle α having extremes values
 for α = 0 and α = π or 180°. The maximum output voltage is obtained when α = 0 and is given by<br>
 
 <center>
 
-$$V_{dc ~ max} =\frac {V_{max}}{\pi} .......(2)$$
+$$V_{dc ~ max} =\frac {V_m}{\pi} .......(2)$$
 
 </center>
 
@@ -78,7 +78,7 @@ $$V_{dc ~ max} =\frac {V_{max}}{\pi} .......(2)$$
 
 <center>
 
-$$I_{dc} = \frac {V_{dc}}{R} = \frac {V_{max}}{2\pi R}(1+cos \alpha ).......(3)$$
+$$I_{dc} = \frac {V_{dc}}{R} = \frac {V_m}{2\pi R}(1+cos \alpha ).......(3)$$
 
 </center>
 
@@ -86,7 +86,7 @@ The rms value of load voltage is given by<br>
 
 <center>
 
-$$V_{L~rms}=\frac {V_{max}}{2 \sqrt{\pi} } \left(\pi -\alpha + \frac {1}{2}sin ~ 2 \alpha\right)^\frac {1}{2}.......(4)$$
+$$V_{L~rms}=\frac {V_m}{2 \sqrt{\pi} } \left(\pi -\alpha + \frac {1}{2}sin ~ 2 \alpha\right)^\frac {1}{2}.......(4)$$
 
 </center>
 
@@ -94,7 +94,7 @@ For firing angle α =0<br>
 
 <center>
 
-$$V_{L ~ rms} = \frac {V_{max}}{2}.......(5)$$
+$$V_{L ~ rms} = \frac {V_m}{2}.......(5)$$
 
 </center>
 
@@ -110,7 +110,7 @@ Average output power is given by <br>
 
 <center>
 
-$$P_{dc} = V_{dc}.I_{dc} = \frac {V_{max}^2}{4 \pi^2 R}(1+ cos \alpha)^ \frac {1}{2}.......(7)$$
+$$P_{dc} = V_{dc}.I_{dc} = \frac {V_m^2}{4 \pi^2 R}(1+ cos \alpha)^ \frac {1}{2}.......(7)$$
 
 </center>
 
